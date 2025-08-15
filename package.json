@@ -1,8 +1,13 @@
 {
   "name": "pdf-detector",
   "version": "1.0.0",
+  "description": "Detecteer PDF-formaat en aantal pagina's",
+  "main": "api/detect.js",
   "type": "module",
   "dependencies": {
-    "pdf-lib": "^1.17.1"
+    "pdf-parse": "^1.1.1",
+    "pdf-lib": "^1.17.1",
+    "busboy": "^1.6.0"
   }
 }
+
